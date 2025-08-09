@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code, User, Briefcase, Phone } from 'lucide-react';
-import front from './assets/firstlook.jpg';
+import front from '../public/firstlook.jpg';
 import Netflix from '../public/netflix.jpg'
 import Gym from '../public/gym.jpg'
 import Sumsung from '../public/sumsung12.webp'
