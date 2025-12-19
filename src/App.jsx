@@ -12,6 +12,7 @@ import qr from '../public/alipay-5417256_1280.jpg'
 import TTT from '../public/TICTACTOE.jpg'
 import clp from '../public/COLOR.jpg'
 import form from '../public/registration.jpg'
+import cafe from '../public/backg1.jpg'
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +54,30 @@ const Portfolio = () => {
   ];
 
   const projects = [
+    {
+      title: 'AI-Interview Preparation',
+      // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
+      image: [Netflix],
+      tags: ['Reactjs', 'Nodejs', 'Expressjs', 'MongoDB'],
+      github: 'https://github.com/Shuaibahmed9080/netflix',
+      live: 'https://inter-pre-ai-frontend.onrender.com'
+    },
+    {
+      title: 'Cafe Restaurant',
+      // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
+      image: [Netflix],
+      tags: ['Html', 'Css'],
+      github: '#',
+      live: 'https://cafe-restaurant-shuaib.netlify.app/'
+    },
+    {
+      title: 'Al-huda School',
+      // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
+      image: [Netflix],
+      tags: ['Html', 'Css'],
+      github: 'https://github.com/Shuaibahmed9080/Madarsa',
+      live: 'https://al-huda-islamic-school.netlify.app/'
+    },
     {
       title: 'Netflix Clone',
       // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
@@ -140,6 +165,14 @@ const Portfolio = () => {
       tags: ['Html', 'Css', 'JavaScript'],
       github: 'https://github.com/Shuaibahmed9080/registerationvalid',
       live: 'https://regform-valid.netlify.app/'
+    },
+    {
+      title: 'Cafe-Restaurant',
+      // description: 'Interactive weather dashboard with data visualization',
+      image: [cafe],
+      tags: ['Html', 'Css', 'JavaScript', 'PhP'],
+      // github: 'https://github.com/Shuaibahmed9080/registerationvalid',
+      live: 'https://cafe-restaurant-shuaib.netlify.app/'
     }
   ];
 
@@ -908,7 +941,7 @@ const Portfolio = () => {
           </div>
           <div className="flex items-center space-x-2">
             <Phone size={16} className="text-purple-400" />
-            <span className="text-sm">+91 9943806697</span>
+            <span className="text-sm">+91 9080887600</span>
           </div>
         </div>
       </div>
