@@ -13,6 +13,8 @@ import TTT from '../public/TICTACTOE.jpg'
 import clp from '../public/COLOR.jpg'
 import form from '../public/registration.jpg'
 import cafe from '../public/backg1.jpg'
+import Ai from "../public/ai-interview.png"
+import ecommerce1 from "../public/ecommerce.png"
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,9 +49,11 @@ const Portfolio = () => {
     { name: 'HTML/CSS', level: 95, color: 'from-orange-500 to-red-500' },
     { name: 'JavaScript', level: 85, color: 'from-yellow-400 to-orange-500' },
     { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
-    { name: 'Node.js', level: 40, color: 'from-green-500 to-emerald-500' },
+    { name: 'Node.js', level: 60, color: 'from-green-500 to-emerald-500' },
     { name: 'Bootstrap', level: 75, color: 'from-blue-600 to-purple-600' },
     { name: 'Material UI', level: 75, color: 'from-blue-600 to-purple-600' },
+    { name: 'MongoDB', level: 70, color: 'from-green-600 to-teal-600' },
+    { name: 'MySQL', level: 78, color: 'from-green-600 to-teal-600' }
     // { name: 'MongoDB', level: 70, color: 'from-green-600 to-teal-600' }
   ];
 
@@ -57,7 +61,7 @@ const Portfolio = () => {
     {
       title: 'AI-Interview Preparation',
       // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
-      image: [Netflix],
+      image: [Ai],
       tags: ['Reactjs', 'Nodejs', 'Expressjs', 'MongoDB'],
       github: 'https://github.com/Shuaibahmed9080/netflix',
       live: 'https://inter-pre-ai-frontend.onrender.com'
@@ -65,18 +69,18 @@ const Portfolio = () => {
     {
       title: 'Cafe Restaurant',
       // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
-      image: [Netflix],
-      tags: ['Html', 'Css'],
+      image: [cafe],
+      tags: ['Html', 'Css', 'JavaScript', 'PhP','MySQL'],
       github: '#',
       live: 'https://cafe-restaurant-shuaib.netlify.app/'
     },
     {
-      title: 'Al-huda School',
+      title: 'E-Commerce Clothes',
       // description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
-      image: [Netflix],
-      tags: ['Html', 'Css'],
-      github: 'https://github.com/Shuaibahmed9080/Madarsa',
-      live: 'https://al-huda-islamic-school.netlify.app/'
+      image: [ecommerce1],
+      tags: ["Reactjs","Taiwindcss"],
+      github: '#',
+      live: 'https://clothes-ecommerce1.netlify.app/'
     },
     {
       title: 'Netflix Clone',
@@ -165,15 +169,15 @@ const Portfolio = () => {
       tags: ['Html', 'Css', 'JavaScript'],
       github: 'https://github.com/Shuaibahmed9080/registerationvalid',
       live: 'https://regform-valid.netlify.app/'
-    },
-    {
-      title: 'Cafe-Restaurant',
-      // description: 'Interactive weather dashboard with data visualization',
-      image: [cafe],
-      tags: ['Html', 'Css', 'JavaScript', 'PhP'],
-      // github: 'https://github.com/Shuaibahmed9080/registerationvalid',
-      live: 'https://cafe-restaurant-shuaib.netlify.app/'
     }
+    // {
+    //   title: 'Cafe-Restaurant',
+    //   // description: 'Interactive weather dashboard with data visualization',
+    //   image: [cafe],
+    //   tags: ['Html', 'Css', 'JavaScript', 'PhP'],
+    //   // github: 'https://github.com/Shuaibahmed9080/registerationvalid',
+    //   live: 'https://cafe-restaurant-shuaib.netlify.app/'
+    // }
   ];
 
   return (
